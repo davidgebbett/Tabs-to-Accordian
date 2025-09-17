@@ -159,7 +159,7 @@
                             return false;
                         }
                         if (!$currentTab.hasClass('resp-tab-active') && $currentTab.hasClass('resp-accordion')) {
-                            $respTabs.find('.resp-tab-active.' + options.tabidentify).removeClass('resp-tab-active').css({
+                            $respTabs.find('.resp-tab-active' + options.tabidentify).removeClass('resp-tab-active').css({
                                 'background-color': options.inactive_bg,
                                 'border-color': 'none'
                             });
